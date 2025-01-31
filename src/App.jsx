@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="container">
       {isOver && <div className="overlay"></div>}
-      <h1>Rick&apos;s Memory</h1>
+     <h1><span><img src="../public/rick.png" height='50' alt="" /> </span>Rick&apos;s Memory</h1>
       <div className="cardContainer">
         <div className="score">
           <span>Score: {currentScore}</span> <br />
